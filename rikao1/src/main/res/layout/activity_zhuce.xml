@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZhuceActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+    <EditText
+        android:id="@+id/mZhuCesj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="输入手机号" />
+
+    <EditText
+        android:id="@+id/mZhuceMima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="输入密码" />
+
+    <Button
+        android:id="@+id/mzhuceLiji"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="立即注册"/>
+
+</LinearLayout>
